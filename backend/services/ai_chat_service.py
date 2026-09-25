@@ -17,7 +17,7 @@ FAQ_KNOWLEDGE_BASE = [
         )
     },
     {
-        "keywords": ["normal glucose", "blood sugar range", "glucose level", "fasting glucose", "hba1c"],
+        "keywords": ["normal glucose", "blood sugar range", "glucose level", "fasting glucose", "hba1c", "a1c", "blood sugar"],
         "response": (
             "**Standard Blood Glucose Ranges (Fasting):**\n\n"
             "• **Normal:** 70 – 99 mg/dL\n"
@@ -41,7 +41,7 @@ FAQ_KNOWLEDGE_BASE = [
         )
     },
     {
-        "keywords": ["symptoms", "signs of diabetes", "frequent urination", "thirst", "fatigue"],
+        "keywords": ["symptoms", "signs of diabetes", "warning signs", "frequent urination", "thirst", "fatigue"],
         "response": (
             "**Common Early Symptoms of Diabetes include:**\n\n"
             "1. **Polyuria:** Increased frequency of urination (especially at night).\n"
@@ -53,7 +53,7 @@ FAQ_KNOWLEDGE_BASE = [
         )
     },
     {
-        "keywords": ["lifestyle", "prevention", "reduce risk", "diet", "exercise", "habits"],
+        "keywords": ["lifestyle", "prevention", "prevent diabetes", "reduce risk", "diet", "eat", "nutrition", "exercise", "habits"],
         "response": (
             "**Evidence-Based Lifestyle Habits to Reduce Diabetes Risk:**\n\n"
             "• **Physical Activity:** Aim for at least 150 minutes of moderate-intensity aerobic exercise (e.g., brisk walking, cycling) per week.\n"
@@ -68,6 +68,14 @@ FAQ_KNOWLEDGE_BASE = [
             "**Diabetes Pedigree Function (DPF):**\n"
             "The Diabetes Pedigree Function is a mathematical calculation that estimates genetic likelihood based on family history of diabetes.\n\n"
             "While having a family history increases risk, active lifestyle modifications (diet & exercise) remain highly effective at preventing onset."
+        )
+    },
+    {
+        "keywords": ["urgent", "emergency", "very high blood sugar", "ketones", "confusion", "passed out"],
+        "response": (
+            "**Seek urgent medical help** for severe confusion, fainting, trouble breathing, repeated vomiting, "
+            "or an inability to keep fluids down. Very high or very low blood sugar can be dangerous, especially "
+            "when accompanied by these symptoms. Contact local emergency services or a medical professional immediately."
         )
     }
 ]
